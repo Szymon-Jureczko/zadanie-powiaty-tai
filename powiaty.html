@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Powiaty</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <h1>Edytor powiatów</h1>
+  <p>Dodawaj, wyświetlaj, edytuj i usuwaj wpisy.</p>
+<form name="edt">
+  <fieldset>
+	<legend>Edytor</legend>
+  <label>Treść wpisu
+	<input type="text" name="entry" id="powiatyIn"/>
+  </label>
+  <button type="submit" id="setBtn">Zastosuj</button>
+  <p>Lista wpisów:</p>
+  <ol id="entLst">
+  </ol>
+  </fieldset>
+</form>
+<section>
+  <fieldset>
+	<legend>Formularz testowy</legend>
+	<label>Wybierz powiat:
+	  <input type="text" list="dLst" name="test" />
+	</label>
+	<datalist id="dLst">
+	</datalist>
+  </fieldset>
+</section>
+  <script type="text/javascript" src="powiaty.js"></script>
+</body>
+</html>
